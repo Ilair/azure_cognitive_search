@@ -1,6 +1,6 @@
 # Lab Project 04 - Azure Cognitive Search: Indexação e Consulta de Dados com AI Search  
 
-![Status](https://img.shields.io/badge/Status_Projeto:-Concluído_(27/Mar/2024)-green)  
+![Status](https://img.shields.io/badge/Status_Projeto:-Concluído_(05/Jan/2025)-green)  
 
 ![Inteligência Artificial](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)  
 ![Document Intelligence](https://img.shields.io/badge/Document_Intelligence-blue)  
