@@ -1,4 +1,4 @@
-# Lab Project 04 - Azure Cognitive Search: Indexação e Consulta de Dados com AI Search  
+# Azure Cognitive Search: Indexação e Consulta de Dados com AI Search  
 
 ![Status](https://img.shields.io/badge/Status_Projeto:-Concluído_(05/Jan/2025)-green)  
 
@@ -39,8 +39,6 @@ Para a implementação do **Document Intelligence**, foram utilizados três recu
 2. **Azure AI Services** – fornece ferramentas de IA para enriquecimento dos dados.  
 3. **Storage Account** – armazenamento dos documentos em **Blob Containers**.  
 
-![Arquitetura do Processo](https://source.unsplash.com/800x400/?cloud,data)  
-
 ---
 
 ## Upload de Dados e Criação do Index  
@@ -48,13 +46,9 @@ Para a implementação do **Document Intelligence**, foram utilizados três recu
 As avaliações utilizadas neste experimento podem ser acessadas por meio do link:  
 🔗 [Coffee Reviews Dataset](https://aka.ms/mslearn-coffee-reviews).  
 
-Após criar o **Blob Storage**, os arquivos foram carregados no repositório.  
-
-![Upload de Arquivos](https://source.unsplash.com/800x400/?data,upload)  
+Após criar o **Blob Storage**, os arquivos foram carregados no repositório.   
 
 Com os documentos armazenados, foi possível utilizar o **Azure AI Search** para criar um **índice** e extrair **insights** automaticamente. Essa configuração foi realizada por meio do assistente do portal **Azure**, permitindo a importação e indexação dos dados.  
-
-![Configuração do Index](https://source.unsplash.com/800x400/?technology,search)  
 
 Durante essa etapa, foram selecionadas as **habilidades (skills)** mais adequadas ao contexto dos documentos para aprimorar a análise e extração de informações.  
 
@@ -66,11 +60,7 @@ O **Azure AI Search** permite realizar consultas estruturadas no índice criado.
 
 Na imagem abaixo, vemos uma consulta filtrando as avaliações de clientes da cidade de **Chicago**.  
 
-![Consulta por Localização](https://source.unsplash.com/800x400/?city,map)  
-
 Também é possível refinar a pesquisa para identificar avaliações com **sentimento negativo**, utilizando técnicas de **análise de sentimentos**.  
-
-![Análise de Sentimentos](https://source.unsplash.com/800x400/?ai,analytics)  
 
 Além disso, foram extraídas **palavras-chave (keyphrases)** das avaliações, permitindo identificar rapidamente os principais tópicos mencionados pelos clientes. Esse processo facilita a compreensão geral do conteúdo analisado.  
 
@@ -86,9 +76,7 @@ Ferramentas de **Inteligência Documental** possibilitam a automação desse pro
 ✅ Indexação eficiente de documentos.  
 ✅ Busca rápida e estruturada em grandes bases de dados.  
 ✅ Extração de insights com análise de sentimentos e palavras-chave.  
-✅ Automação do processamento de informações textuais.  
-
-![Data Analytics](https://source.unsplash.com/800x400/?data,insights)  
+✅ Automação do processamento de informações textuais.   
 
 ---  
 
